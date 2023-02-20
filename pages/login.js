@@ -12,7 +12,7 @@ function Login() {
         e.preventDefault()
         setEmail(emailValue.current.value)
         setPswd(pswdValue.current.value)
-        fetch("http://localhost:8080/signIn", {
+        fetch("http://localhost:8080/login", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -40,8 +40,8 @@ function Login() {
                 </div>
                 <div className='container mx-auto lg:w-3/5 w-4/5'>
                     <h1 className='text-4xl font-semibold'>Login</h1>
-                    <p className='text-lg font-semibold mt-2 text-green-600 mb-10 font-mono'>Welcome back we are glad to see you again</p>
-                    <form onClick={HandleSubmit} className='space-y-5'>
+                    <p className='text-xl font-semibold mt-2 text-green-600 mb-10 font-mono'>Welcome back 🔥</p>
+                    <form onSubmit={HandleSubmit} className='space-y-5'>
                         <h1 className='text-center bg-red-200 text-red-600'>{error}</h1>
                         <label className='font-semibold text-slate-800'>Email<i className='text-green-600 text-lg font-bold'>*</i></label>
                         <input

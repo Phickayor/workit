@@ -14,7 +14,7 @@ function SignUp() {
         setEmail(emailValue.current.value)
         setPswd(pswdValue.current.value)
         setName(nameValue.current.value)
-        fetch("http://localhost:8080/signUp", {
+        fetch("http://localhost:8080/signup", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
