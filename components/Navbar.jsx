@@ -1,6 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faGlobe, faUser, faChartSimple, faUserCircle, faRightFromBracket } from '@fortawesome/free-solid-svg-icons'
+import Link from 'next/link'
 function Navbar() {
     var home = <FontAwesomeIcon icon={faHome} />
     var explore = <FontAwesomeIcon icon={faGlobe} />
@@ -19,8 +20,8 @@ function Navbar() {
                     <li className='hover:text-white cursor-pointer'>{explore} Explore</li>
                     <li className='hover:text-white cursor-pointer'>{progress} Your Progress</li>
                 </ul>
-                <div className='flex space-x-10 self-center'>
-                    <h1 className='hover:text-white cursor-pointer text-green-300 font-semibold text-xl text-white'><i className='text-white text-2xl'>{pic}&nbsp;</i> Olufikayomi</h1>
+                <div className='flex space-x-10'>
+                    <Link href="/profile" className='hover:text-white self-center cursor-pointer text-green-300 font-semibold text-xl text-white'><i className='text-white text-2xl'>{pic}&nbsp;</i> Olufikayomi</Link>
                     <button className='border-2 px-5 self-center rounded-lg hover:bg-red-400 hover:border-none text-white font-semibold py-2 duration-[1s]'>{exit} Log out</button>
                 </div>
             </div>
