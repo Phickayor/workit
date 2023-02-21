@@ -23,12 +23,12 @@ export default function Home() {
           />
         </div>
 
-        <div className='w-full lg:h-screen h-1/2 lg:w-1/2 flex flex-col justify-center text-center overflow-y-auto z-20 bg-white'>
+        <div className='w-full lg:h-screen h-1/2 lg:w-1/2 flex flex-col lg:justify-center text-center overflow-y-auto z-20 bg-white'>
           <div className='absolute top-0'>
             <h1 className=' px-10 py-10 text-5xl font-semibold text-white lg:text-slate-700 font-mono'>Work <i className="text-green-500">It!</i></h1>
           </div>
-          <h1 className='text-5xl leading-[60px]'><b className='text-green-600 font-semibold'>Health</b> is wealth <br /> Put in more <b className=' font-semibold text-green-600'>Effort</b> </h1>
-          <p className='text-lg lg:text-xl m-4 text-slate-600 font-serif'>Take care of your body, it is the only place we have to live</p>
+          <h1 className='text-5xl my-4 mx-2 leading-[60px]'><b className='text-green-600 font-semibold'>Health</b> is wealth <br /> Put in more <b className=' font-semibold text-green-600'>Effort</b> </h1>
+          <p className='mx-2 lg:m-4 text-lg lg:text-xl  text-slate-600 font-serif'>Take care of your body, it is the only place we have to live</p>
           <Link href="/login" className=' mt-10 bg-slate-600 w-10/12 lg:w-8/12 self-center p-5 rounded-full text-white font-semibold text-xl hover:bg-green-600 duration-[2s]'>Get Started</Link>
         </div>
 
