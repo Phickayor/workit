@@ -9,7 +9,7 @@ function Navbar() {
     var progress = <FontAwesomeIcon icon={faChartSimple} />
     var pic = <FontAwesomeIcon icon={faUserCircle} />
     return (
-        <div className='bg-slate-700 text-slate-200 p-4 flex'>
+        <div className='sticky top-0 bg-slate-700 text-slate-200 p-4 flex'>
             <div className='flex w-1/2 self-center '>
                 <h1 className=' text-5xl font-semibold text-white font-mono'>Work <i className="text-green-500">It!</i></h1>
                 <input type="search" className='bg-slate-900 mx-5 p-2 w-1/3 lg:focus:w-1/2 border rounded-lg font-mono' placeholder='Search for a workout...' />
