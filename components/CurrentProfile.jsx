@@ -14,6 +14,10 @@ function CurrentProfile() {
                     <p className='font-bold text-slate-600'>Not Set</p>
                 </div>
                 <div className='flex justify-between'>
+                    <label className='text-black text-md font-semibold'>Gender </label>
+                    <p className='font-bold text-slate-600'>Male</p>
+                </div>
+                <div className='flex justify-between'>
                     <label className='text-black text-md font-semibold'>Weight </label>
                     <p className='font-bold text-slate-600'>Not Set</p>
                 </div>
@@ -21,10 +25,10 @@ function CurrentProfile() {
                     <label className='text-black text-md font-semibold'>Height </label>
                     <p className='font-bold text-slate-600'>Not Set</p>
                 </div>
-                <div className='flex justify-between'>
+                {/* <div className='flex justify-between'>
                     <label className='text-black text-md font-semibold'>Special Health Condition </label>
                     <p className='font-bold text-slate-600'>None</p>
-                </div>
+                </div> */}
 
             </div>
         </div>
