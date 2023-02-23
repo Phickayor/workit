@@ -79,7 +79,7 @@ function SignUp() {
                 </div>
             </div>
             <div className='hidden flex flex-col justify-center lg:block w-1/2 h-full flex flex-col justify-center container mx-auto bg-slate-900'>
-                <img className='object-cover h-screen w-full opacity-70' src="https://images.pexels.com/photos/6455775/pexels-photo-6455775.jpeg?auto=compress&cs=tinysrgb&w=2000" />
+                <img className='object-cover h-screen w-full opacity-70' src='/signupimage.webp' />
             </div>
         </div>
 

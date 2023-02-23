@@ -19,7 +19,7 @@ export default function Home() {
         <div className=' lg:w-1/2 lg:h-full h-1/2 flex flex-col justify-center container mx-auto bg-[#192026]'>
           <img
             className='object-cover lg:h-screen w-full opacity-70'
-            src="https://images.pexels.com/photos/7869678/pexels-photo-7869678.jpeg?auto=compress&cs=tinysrgb&w=2000"
+            src="/landingimage.webp"
           />
         </div>
 

@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react'
 import Router from 'next/router'
 import Link from 'next/link'
+import Head from 'next/head'
 // import Image from 'next/image'  ]
 function Login() {
     const emailValue = useRef(null)
@@ -33,6 +34,13 @@ function Login() {
     }
     return (
         <div className='flex'>
+
+            <Head>
+                <title>Login</title>
+                <meta name="description" content="Stay healthy and fit, health is wealth" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <div className='w-full h-screen lg:w-1/2 flex flex-col overflow-y-auto'>
                 {/* <img src={Logo} alt="Shop Thrift" className='absolute m-10 text-3xl font-semibold font-serif text-slate-700' /> */}
                 <div className=' sticky top-0 backdrop-blur-lg'>
@@ -76,7 +84,7 @@ function Login() {
                 </div>
             </div>
             <div className='hidden lg:block w-1/2 h-full flex flex-col justify-center container mx-auto bg-slate-900'>
-                <img className='object-cover h-screen w-full opacity-70' src="https://images.pexels.com/photos/38630/bodybuilder-weight-training-stress-38630.jpeg?auto=compress&cs=tinysrgb&w=2000" />
+                <img className='object-cover h-screen w-full opacity-70' src="/loginimage.webp" />
             </div>
         </div>
     )
